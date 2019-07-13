@@ -1,0 +1,78 @@
+[
+{
+	"uri": "/get-started/1.what_is/",
+	"title": "1. About",
+	"tags": [],
+	"description": "",
+	"content": "LinkedPipes Applications is a visualization web platform that allows the users to explore, visualize and publish LinkedData based visualizer applications. Applications created with these platforms can be easily published and integrated anywhere on the Web!\nThe main features of the platform can be described as follows:\n The user owns and manages his private data space. He can upload graph data therefrom his computer or provide an URL from which the data should be imported. The user can share his data with other users. The user can create and share data sources (entitiesthat provide access to the graph data, for example a SPARQL endpoint). The user can create, edit and share an analyses (tree-like structures where the data flow from the leavesto the root and are processed when passing through a node). The user can browse throughthe data sources and the analysis results using a generic visualization tool. He can alsoalter the visualization using ontologies  "
+},
+{
+	"uri": "/tutorials/1.providing_sources/",
+	"title": "1. Providing LinkedData sources",
+	"tags": [],
+	"description": "",
+	"content": "LinkedPipes Applications is a visualization web platform that allows the users to explore, visualize and publish LinkedData based visualizer applications. Applications created with these platforms can be easily published and integrated anywhere on the Web!\nThe main features of the platform can be described as follows:\n The user owns and manages his private data space. He can upload graph data therefrom his computer or provide an URL from which the data should be imported. The user can share his data with other users. The user can create and share data sources (entitiesthat provide access to the graph data, for example a SPARQL endpoint). The user can create, edit and share an analyses (tree-like structures where the data flow from the leavesto the root and are processed when passing through a node). The user can browse throughthe data sources and the analysis results using a generic visualization tool. He can alsoalter the visualization using ontologies  "
+},
+{
+	"uri": "/get-started/2.installation/",
+	"title": "2. Installation",
+	"tags": [],
+	"description": "",
+	"content": " ⚙️ Prerequisites Make sure to have the following installed in your OS:\n Git  Docker  Docker-compose   🚀 Quick start If you do not consider yourself a developer who is working, contributing or tweaking your own instance of the platform, the fastest way to access the platform would be to simply navigate to the latest instance available at applications.linkedpipes.com.\nIf you do, the consequite sections will guide you through all possible installation scenarious.\nRunning locally The most basic and simply option to start the platform locally is to run these commands:\n$ curl https://raw.githubusercontent.com/linkedpipes/applications/master/lpa-cli.sh -o lpa-cli.sh \u0026amp;\u0026amp; ./lpa-cli.sh --production-no-cloning  After starting all containers, simply navigate to localhost:9001 in your preferred browser.\nPlease note, this doesn\u0026rsquo;t require cloning the project\u0026rsquo;s repository. However, make sure to have latest versions of docker and docker-compose available on your system.\nCloning the repository If you want to have access to more advanced docker-compose startup configurations, make sure to clone the repository project first.\n$ git clone https://github.com/linkedpipes/applications $ cd ./applications  Once you navigate into the root folder of cloned repository, refer to the lpa-cli.sh commands description to get access to all possible docker-compose configurations to start the platform locally:\nusage: ./lpa-cli.sh [-dc]|[--detailed-command] -d | --development Start non persistent development setup (assumes repository is already cloned) -dp | --development-persistent Start non persistend development setup (assumes repository is already cloned) -p | --production Start persistend production setup (assumes repository is already cloned) -pnc | --production-no-cloning Start persistend production setup [NO CLONING REQUIRED ;-)] -cs | --clean-storage Remove 'appdata' and 'data' folders with database data and etc -sc | --stop-compose Setup whatever configuration setup is currently running -h | --help Print help documentation  You can also investigate the commands inside the lpa-cli.sh script for more details. The script itself is essentially a very simple wrapper around various docker-compose related commands.\nDefault ports Regardless of whether you cloned repository or used the no-cloning option, once you have started the instance of the platform in docker-compose, individual components will be accessible on the following ports by default:\n• Frontend of LPA at localhost:9001 • Backend of LPA at localhost:9005 • Discovery at localhost:9000 • ETL at localhost:8080 • Virtuoso at localhost:8890\n"
+},
+{
+	"uri": "/get-started/3.core-concepts/",
+	"title": "3. Core concepts",
+	"tags": [],
+	"description": "",
+	"content": "LinkedPipes Applications is a visualization web platform that allows the users to explore, visualize and publish LinkedData based visualizer applications. Applications created with these platforms can be easily published and integrated anywhere on the Web!\nThe main features of the platform can be described as follows:\n The user owns and manages his private data space. He can upload graph data therefrom his computer or provide an URL from which the data should be imported. The user can share his data with other users. The user can create and share data sources (entitiesthat provide access to the graph data, for example a SPARQL endpoint). The user can create, edit and share an analyses (tree-like structures where the data flow from the leavesto the root and are processed when passing through a node). The user can browse throughthe data sources and the analysis results using a generic visualization tool. He can alsoalter the visualization using ontologies  "
+},
+{
+	"uri": "/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/get-started/",
+	"title": "Get Started",
+	"tags": [],
+	"description": "",
+	"content": " LinkedPipes Applications docs Basics Discover the platform and core concepts behind it.\n"
+},
+{
+	"uri": "/glossary/",
+	"title": "Glossary ",
+	"tags": [],
+	"description": "",
+	"content": " LinkedPipes Applications docs Glossary of terms Learn more about a variety of Semantic Web and LinkedData terms used within LinkedPipes Applications platform.\n"
+},
+{
+	"uri": "/",
+	"title": "Home",
+	"tags": [],
+	"description": "",
+	"content": " \nPlatform Documentation About LinkedPipes Applications is a visualization web platform that allows the users to explore, visualize and publish LinkedData based visualizer applications. Applications created with these platforms can be easily published and integrated anywhere on the Web!\n"
+},
+{
+	"uri": "/glossary/1.glossary/",
+	"title": "Platform terms table",
+	"tags": [],
+	"description": "",
+	"content": " Terms    Word Definition     API Stands for Application Programming Interface. Consist of a set of endpoints.   Endpoint An endpoint is one end of a communication channel.   Assistant Refers to the Linked Pipes Visualization Assistant, which allows users to create, configure and publish visualisations based on input data sets.   Data descriptor An SPARQL ASK query associated with a visualizer that determines if an input data graph can be visualized in the corresponding visualizer.   Data source Refers to any source of data, such as an RDF file, csv, database, etc.   ETL Extract, transform, load.   IRI Stands for Internationalized Resource Identifier. It is an internet protocol standard which extends ASCII characters subset of the Uniform Resource Identifier (URI) protocol.   LDVM Stands for Linked Data Visualization Model.   LDVMi Stands for LDVM implementation.   Linked Data a method of publishing structured data so that it can be interlinked.   LPA Stands for Linked Pipes Application.   Linked Open Data Cloud (LOD Cloud) The largest cloud of linked data that is freely available to everyone.   LinkedPipes ETL The service in charge of the ETL process.   Pipeline In the current context, refers to the process in which the application takes any data source and applies a series of transformations to its data based on the desired visualisation.   Pipeline Execution Runs the pipeline on actual data and hands over the transformed output to a visualizer component, which then produces a visual representation of the data.   Pipeline Discovery The process taking input descriptors for all visualizers and attempt to combine the respective registered transformation to achieve a specific data format.   RDF Resource Description Framework.   Semantic web an extension of the World Wide Web through standards by the World Wide Web Consortium.   Single Page Application (SPA) A web application or web site that interacts with the user by dynamically rewriting the current page rather than loading entire new pages from a server.   SPARQL stands for SPARQL Protocol and RDF Query Language. It is a query language able to retrieve and manipulate data stored in RDF format.   URI A Uniform Resource Identifier (URI) is a string of characters designed for unambiguous identification of resources and extensibility via the URI scheme. They provide a standard way for resources to be accessed by other computers across a network or over the World Wide Web.   URL A URL is a specific type of URI and stands for Uniform Resource Locator.    "
+},
+{
+	"uri": "/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tutorials/",
+	"title": "Tutorials ",
+	"tags": [],
+	"description": "",
+	"content": " LinkedPipes Applications docs Platform usage tutorials Whether you are an experience LinkedData domain expert, or have zero experience with concepts of Semantic Web, get started with this chapter to master LinkedPipes Applications platform, easily create, publish and share your own LinkedData based visualizer applications with anyone!\n"
+}]
