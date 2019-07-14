@@ -2,6 +2,7 @@
 title = "Tutorials "
 chapter = true
 pre = "<b>• </b>"
+weight = 2
 +++
 
 ### LinkedPipes Applications docs

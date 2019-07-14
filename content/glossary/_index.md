@@ -2,6 +2,7 @@
 title = "Glossary "
 chapter = true
 pre = "<b>• </b>"
+weight = 3
 +++
 
 ### LinkedPipes Applications docs

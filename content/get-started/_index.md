@@ -2,6 +2,7 @@
 title = "Get Started"
 chapter = true
 pre = "<b>• </b>"
+weight = 1
 +++
 
 ### LinkedPipes Applications docs
