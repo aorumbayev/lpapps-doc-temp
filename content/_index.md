@@ -10,3 +10,7 @@ pre = "<b>X. </b>"
 ## About
 
 LinkedPipes Applications is a visualization web platform that allows the users to explore, visualize and publish LinkedData based visualizer applications. Applications created with these platforms can be easily published and integrated anywhere on the Web!
+
+- To start with the installation guide and core concepts of the platform refer to the **Get Started** chapter.
+- To start with a detailed tutorial videos guiding you through the functionality of the whole platform, refer to **Tutorials** chapter.
+- To learn more about main definitions and abbreviations mentioned throughout the platform, refer to **Glossary** chapter.
